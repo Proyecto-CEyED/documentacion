@@ -1,0 +1,66 @@
+---
+title: Card
+---
+
+import Card from '@/components/Card.astro';
+import { Cat } from 'lucide-react';
+
+## Card
+
+El componente `Card` está diseñado para presentar contenido en un contenedor estilizado con soporte para íconos y colores personalizados. Es un componente versátil para mostrar información con personalización opcional de íconos y colores.
+
+### Props
+
+- **`title`**
+
+  Tipo: `string`
+
+  Descripción: El texto del título para mostrar en la tarjeta.
+
+- **`icon`**
+
+  Tipo: `LucideIcon` (opcional)
+
+  Predeterminado: `Terminal`
+
+  Descripción: Un ícono personalizado para mostrar en la tarjeta. Si no se proporciona, se usará el ícono predeterminado `Terminal`. Puedes buscar íconos en [lucide.dev](https://lucide.dev/icons/).
+
+- **`color`**
+
+  Tipo: `string` (opcional)
+
+  Predeterminado: `"primary"`
+
+  Opciones: 
+  <span class="bg-Pink text-background p-1 border rounded text-sm font-semibold">"Pink"</span>
+  <span class="bg-Purple text-background p-1 border rounded text-sm font-semibold">"Purple"</span>
+  <span class="bg-Red text-background p-1 border rounded text-sm font-semibold">"Red"</span>
+  <span class="bg-Orange text-background p-1 border rounded text-sm font-semibold">"Orange"</span>
+  <span class="bg-Yellow text-background p-1 border rounded text-sm font-semibold">"Yellow"</span>
+  <span class="bg-Green text-background p-1 border rounded text-sm font-semibold">"Green"</span>
+  <span class="bg-Teal text-background p-1 border rounded text-sm font-semibold">"Teal"</span>
+  <span class="bg-Sky text-background p-1 border rounded text-sm font-semibold">"Sky"</span>
+  <span class="bg-Blue text-background p-1 border rounded text-sm font-semibold">"Blue"</span>
+
+  Descripción: El color de fondo para la tarjeta. Esto se usa tanto para el fondo de la tarjeta como para el estado de hover del botón. Si no se proporciona, el color predeterminado es <span class="bg-primary text-background p-1 border rounded text-sm font-semibold">"primary"</span>.
+
+### Uso Básico
+
+Para usar el componente Card, impórtalo y úsalo en tus archivos Astro con el título deseado, ícono personalizado opcional y color.
+
+<Card title="Default Card">
+  Esta es una tarjeta con configuraciones predeterminadas.
+</Card>
+
+<Card title="Card with Custom Icon" icon={Cat}>
+  Esta es una tarjeta con un ícono personalizado.
+</Card>
+
+<Card title="Card with Custom Icon and Color" icon={Cat} color="Red">
+  Esta es una tarjeta con un ícono y color personalizados.
+</Card>
+
+<Card title="Card with Custom Color" color="Green">
+  Esta es una tarjeta con un color personalizado.
+</Card>
+

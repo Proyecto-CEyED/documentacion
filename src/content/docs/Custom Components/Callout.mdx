@@ -1,0 +1,59 @@
+---
+title: Callout
+---
+import Callout from "@/components/Callout.astro";
+import { Cat } from 'lucide-react';
+
+
+## Callout
+
+El componente `Callout` está diseñado para resaltar información importante, advertencias, errores o éxitos en tu aplicación. Es una caja de alerta versátil con variantes y títulos personalizables.
+
+### Props
+
+- **`variant`**
+
+  Tipo: `string`
+
+  Predeterminado: "info"
+
+  Opciones: `"info" | "warning" | "danger" | "success"`
+
+  Descripción: Define el tipo de alerta a mostrar. La variante determina el color, el icono y el título predeterminado de la alerta.
+
+- **`title`**
+
+  Tipo: `string`
+
+  Predeterminado: Títulos predeterminados basados en la variante
+
+  Descripción: Título personalizado para la alerta. Si no se proporciona, se usará el título predeterminado para la variante especificada.
+
+- **`icon`**
+
+  Tipo: `LucideIcon` (opcional)
+
+  Predeterminado: Icono predeterminado basado en la variante
+
+  Descripción: Un icono personalizado para usar en la alerta. Si no se proporciona, se usará el icono predeterminado para la variante especificada. Puedes buscar iconos en [lucide.dev](https://lucide.dev/icons/).
+
+### Uso Básico
+Para usar el componente Callout, impórtalo y úsalo en tus archivos Astro con la variante y el título deseados.
+
+
+<Callout variant="info">
+  Este es un mensaje informativo.
+</Callout>
+
+<Callout variant="warning" title="Título de Advertencia Personalizado">
+  Este es un mensaje de advertencia con un título personalizado.
+</Callout>
+
+<Callout variant="danger" icon={Cat}>
+  Este es un mensaje de peligro con un icono personalizado.
+</Callout>
+
+<Callout variant="success" title="Título de Éxito Personalizado" icon={Cat}>
+  Este es un mensaje de éxito con un título y un icono personalizados.
+</Callout>
+

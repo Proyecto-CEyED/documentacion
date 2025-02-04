@@ -1,0 +1,24 @@
+---
+title: Componentes
+---
+import Callout from "@/components/Callout.astro";
+import Card from '@/components/Card.astro';
+import { Cat } from 'lucide-react';
+
+Los componentes te permiten reutilizar fácilmente una pieza de UI o estilo de manera consistente. Los ejemplos pueden incluir una tarjeta de enlace o una incrustación de YouTube. CelestialDocs admite el uso de componentes en archivos [MDX](https://mdxjs.com/) y proporciona algunos componentes comunes para que los uses.
+
+## Callout
+
+El componente `Callout` está diseñado para resaltar información importante, advertencias, errores o éxitos en tu aplicación. Es una caja de alerta versátil con variantes y títulos personalizables.
+
+<Callout>
+  Consulta el [Callout](/custom-components/callout) para ver todas las propiedades personalizadas y sus usos.
+</Callout>
+
+## Card
+
+Puedes mostrar contenido en una caja que coincida con los estilos de CelestialDocs usando el componente `<Card>`.
+
+<Card title="Tarjeta con Icono y Color Personalizados" icon={Cat} color="Red">
+  Esta es una tarjeta con un icono y color personalizados.
+</Card>
