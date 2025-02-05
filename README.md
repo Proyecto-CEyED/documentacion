@@ -9,12 +9,13 @@ para hacer páginas de documentación:
                 -index.mdx (página principal donde se mostrará el contenido de la carpeta)
                 -<nombre-archivo>.mdx (páginas secundarias que se mostrarán en la página principal)
 
-
-
 ejemplo index.mdx:
+![image](https://github.com/user-attachments/assets/c5e76330-5717-48bd-a7d6-9cbf837cb499)
 
 ejemplo <nombre-archivo>.mdx:
+![image](https://github.com/user-attachments/assets/347760f5-5a76-4e25-a0cb-f7d90805e018)
 
+---
 
 # Instrucciónes para ejecutar el proyecto
 
