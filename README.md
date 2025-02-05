@@ -12,12 +12,21 @@ para hacer páginas de documentación:
 ```
 
 ejemplo del directorio: 
+
+---
+
 ![image](https://github.com/user-attachments/assets/1ee9c7d6-5184-47e4-9528-2349f50b6752)
 
 ejemplo index.mdx:
+
+---
+
 ![image](https://github.com/user-attachments/assets/c5e76330-5717-48bd-a7d6-9cbf837cb499)
 
 ejemplo <nombre-archivo>.mdx:
+
+---
+
 ![image](https://github.com/user-attachments/assets/347760f5-5a76-4e25-a0cb-f7d90805e018)
 
 ---
