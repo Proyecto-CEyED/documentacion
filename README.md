@@ -2,12 +2,14 @@
 
 para hacer páginas de documentación:
 
+```bash
 -src
     -content
         -docs
             -<nombre-carpeta> ( Puedes crear una nueva mientras sigas la estructura de ejemplo de la carpeta "Ejemplo")
                 -index.mdx (página principal donde se mostrará el contenido de la carpeta)
                 -<nombre-archivo>.mdx (páginas secundarias que se mostrarán en la página principal)
+```
 
 ejemplo index.mdx:
 ![image](https://github.com/user-attachments/assets/c5e76330-5717-48bd-a7d6-9cbf837cb499)
