@@ -11,6 +11,9 @@ para hacer páginas de documentación:
                 -<nombre-archivo>.mdx (páginas secundarias que se mostrarán en la página principal)
 ```
 
+ejemplo del directorio: 
+![image](https://github.com/user-attachments/assets/1ee9c7d6-5184-47e4-9528-2349f50b6752)
+
 ejemplo index.mdx:
 ![image](https://github.com/user-attachments/assets/c5e76330-5717-48bd-a7d6-9cbf837cb499)
 
