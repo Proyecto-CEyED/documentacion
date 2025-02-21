@@ -3,8 +3,8 @@ import type { SocialObjects } from "@/lib/types";
 export const SITE = {
   website: "https://hyperoot.dev", // replace this with your deployed domain
   author: "CastDev-j",
-  desc: "Documentation for Oficial Schula App",
-  title: "Schula Doc.",
+  desc: "Documentation for Oficial nombreprendiente App",
+  title: "nombreprendiente Doc.",
   ogImage: "og-image.jpg",
   repo: "https://github.com/Proyecto-CEyED/documentacion",
 };

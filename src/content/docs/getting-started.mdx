@@ -1,7 +1,101 @@
 ---
-title: Inicio
+title: nombrependiente
 hide_breadcrumbs: true
 ---
-import Callout from "@/components/Callout.astro";
 
-**_Schula_** es una plataforma de aprendizaje diseñada para ofrecer acceso a contenido educativo de calidad. Proporciona una amplia variedad de cursos en línea, tutoriales y recursos educativos para estudiantes de todas las edades.  
+import Callout from "@/components/Callout.astro";
+import Card from '@/components/Card.astro';
+import { Globe, DollarSign, Users, Layout, Shield, TrendingUp, Phone, ShoppingCart, Edit3, BarChart2, Facebook, Twitter, Instagram } from 'lucide-react';
+
+<Callout variant="success" title="Lleva tu imagen al mundo digital">
+    Con [nombrependiente] puedes comprar un paquete que se ajuste a tus necesidades y llevar tu imagen al mundo digital.
+</Callout>
+
+Bienvenidos a [nombrependiente], tu consultora de confianza para la creación de sitios web a medida. Ofrecemos planes de precios flexibles para satisfacer tus necesidades específicas, ya sea para tu negocio, tu imagen profesional o una página para presentar un producto. Nosotros nos encargamos de todo.
+
+Si eres un profesional independiente, una pequeña empresa o una startup, necesitas una presencia digital. Con [nombrependiente] puedes comprar un paquete que se ajuste a tus necesidades y llevar tu imagen al mundo digital.
+
+## Servicios
+
+<Card title="Diseño Responsivo" icon={Globe} color="Pink">
+  Nos aseguramos de que tu sitio web se vea genial en todos los dispositivos, desde teléfonos móviles hasta computadoras de escritorio.
+</Card>
+
+<Card title="Velocidad de Carga Rápida" icon={TrendingUp} color="Purple">
+  Optimizamos tu sitio web para que cargue rápidamente, proporcionando una mejor experiencia de usuario y mejorando el SEO.
+</Card>
+
+<Card title="Optimización SEO" icon={BarChart2} color="Red">
+  Implementamos las mejores prácticas para la optimización de motores de búsqueda y aumentamos la visibilidad de tu sitio web.
+</Card>
+
+<Card title="Navegación Amigable" icon={Layout} color="Orange">
+  Diseñamos una navegación intuitiva para ayudar a los usuarios a encontrar lo que necesitan rápida y fácilmente.
+</Card>
+
+<Card title="Contenido de Alta Calidad" icon={Edit3} color="Yellow">
+  Creamos contenido atractivo e informativo que resuene con tu audiencia.
+</Card>
+
+<Card title="Seguridad" icon={Shield} color="Green">
+  Implementamos medidas de seguridad para proteger tu sitio web y los datos de los usuarios contra amenazas.
+</Card>
+
+<Card title="Integración de Analíticas" icon={BarChart2} color="Teal">
+  Integramos herramientas de analíticas para rastrear el comportamiento de los usuarios y medir el rendimiento de tu sitio web.
+</Card>
+
+<Card title="Integración con Redes Sociales" icon={Globe} color="Sky">
+  Conectamos tu sitio web con plataformas de redes sociales para aumentar el compromiso y el alcance.
+</Card>
+
+<Card title="Formularios de Contacto" icon={Phone} color="Blue">
+  Incluimos formularios de contacto para permitir que los usuarios se pongan en contacto contigo fácilmente.
+</Card>
+
+<Card title="Funcionalidad de Comercio Electrónico" icon={ShoppingCart} color="Pink">
+  Agregamos funciones de comercio electrónico para vender productos o servicios directamente desde tu sitio web.
+</Card>
+
+<Card title="Blog" icon={Edit3} color="Purple">
+  Creamos un blog para compartir noticias, actualizaciones y contenido valioso con tu audiencia.
+</Card>
+
+<Card title="Temas Personalizables" icon={Layout} color="Red">
+  Ofrecemos temas personalizables para permitir a los usuarios personalizar la apariencia de su sitio web.
+</Card>
+
+## Acerca de Nosotros
+
+<Callout variant="info" title="Nuestro Equipo">
+  Somos un pequeño equipo de estudiantes de la carrera de Ingenieria en Sistemas Computacionales del Instituto Tecnologico de Celaya.
+</Callout>
+
+<Card title="Desarrollando la creatividad y la innovación" icon={Users} color="Orange">
+  Nuestro objetivo es desarrollar aplicaciones web y móviles que sean útiles y fáciles de usar. Nos esforzamos por crear productos que resuelvan tus necesidades y te ayuden a alcanzar tus objetivos.
+</Card>
+
+## Nuestro Equipo
+
+<Card title="Andres Castillo" icon={Users} color="Yellow">
+  Desarrollador
+</Card>
+
+<Card title="Uriel Flores" icon={Users} color="Green">
+  Marketing
+</Card>
+
+## Contacto
+
+<Callout variant="info" title="Información de Contacto">
+  1234, Calle Principal, Ciudad, País<br/>
+  correo@example.com<br/>
+  +52 (555) 4555 555
+</Callout>
+
+## Navegación
+
+- [Inicio](/inicio)
+- [Costos](/costos)
+- [Acerca de Nosotros](/acerca-de-nosotros)
+- [Contacto](/contacto)
